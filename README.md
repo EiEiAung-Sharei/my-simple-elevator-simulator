@@ -12,11 +12,11 @@ The elevator starts on the **1st floor**. When a user selects another floor, Jav
 
 ## Ideas
 
-🏢 Floors: 1, 2, 3, 4, 5
-🔘 User clicks a floor button
-🛗 Elevator moves to that floor
-📺 Display shows the current floor
-⬆️⬇️ Elevator moves visually
+●🏢 Floors: 1, 2, 3, 4, 5
+●🔘 User clicks a floor button
+●🛗 Elevator moves to that floor
+●📺 Display shows the current floor
+●⬆️⬇️ Elevator moves visually
 
 ## ✨ Features
 
