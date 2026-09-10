@@ -1,0 +1,70 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.elevator-container {
+  background-color: #867e7e;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 30px auto;
+}
+
+.elevator_photo {
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.shaft {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  margin: auto;
+  bottom: 10px;
+  border: 5px solid #333;
+  background: #ddd;
+}
+
+.elevator {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 100px;
+  height: 80px;
+  padding-top: 20px;
+  background: #555;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: bottom 1s ease-in-out;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 15px 5px 0px 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+  color: white;
+}
+
+#status,
+.floor_display {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Box Icons Link-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="elevator-container">
+        <h1>Elevator</h1>
+        <!-- Elevator shaft -->
+        <div class="shaft">
+            <div class="elevator" id="elevator">
+                <img src="./image/elevator-solid-full.svg" alt="" class="elevator_photo">
+                <p id="floor_display" class="floor_display">1</p>
+            </div>
+        </div>
+
+        <!-- Floor Buttons -->
+        <div class="buttons">
+            <button id="targetFloor" onClick="goToFloor(this)">5</button>
+            <button id="targetFloor" onClick="goToFloor(this)">4</button>
+            <button id="targetFloor" onClick="goToFloor(this)">3</button>
+            <button id="targetFloor" onClick="goToFloor(this)">2</button>
+            <button id="targetFloor" onClick="goToFloor(this)">1</button>
+        </div>
+
+        <p id="status">Current Floor: 1</p>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
